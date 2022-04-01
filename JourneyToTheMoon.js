@@ -21,8 +21,8 @@ const journeyToMoon = (n, astronaut) => {
         const ast2 = element[1]
 
         if (relationalMap.hasOwnProperty(ast1) && relationalMap.hasOwnProperty(ast2)) {
-            var graphIndex = relationalMap[ast1]
-            var graphIndex2 = relationalMap[ast2]
+            const graphIndex = relationalMap[ast1]
+            const graphIndex2 = relationalMap[ast2]
 
             if (graphIndex === graphIndex2) {
                 return
