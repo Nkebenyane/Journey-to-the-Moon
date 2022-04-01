@@ -1,6 +1,6 @@
 
 
-const journeyToMoon = (n, astronaut) => {
+const journeyToTheMoon = (n, astronaut) => {
 
     const relationalMap = {} 
     const graph = [] 
